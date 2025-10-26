@@ -1,0 +1,33 @@
+{
+  "name": "invoice-rules-api-nodejs",
+  "version": "1.0.0",
+  "description": "Production-grade Invoice Rule Engine REST API built with Node.js and Express",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "invoice",
+    "rules",
+    "api",
+    "express",
+    "nodejs",
+    "rest"
+  ],
+  "author": "Sivasankar Thalavai",
+  "license": "Apache-2.0",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.4"
+  }
+}
